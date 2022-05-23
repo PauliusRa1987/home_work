@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+.conteris{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.round{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #61dafb;
+}
+.squer{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: #824a5f;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+.dogs-con{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  
+}
+.squer.dogs {
+  font-size: 15px;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.round.dogs{
+  font-size: 15px;
+  width: 100px;
+  height: 100px;
+  align-content: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #61dafb;
+  margin: 12px;
+  line-height: 100px;
+}

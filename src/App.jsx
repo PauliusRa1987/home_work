@@ -1,21 +1,41 @@
 
 import './App.css';
-import Bebras from './components/home_work_1/Bebras';
-import Pora from './components/home_work_1/Pora';
-import Sho from './components/home_work_1/Sho';
-import Trys from './components/home_work_1/Trys';
-import Zuikis from './components/home_work_1/Zuikis';
+import Bala from './components/home_work_react_list/Bala';
+import Jura from './components/home_work_react_list/Jura';
+import Pasaulis from './components/home_work_react_list/list_5_uzdavinys/Pasaulis';
+import Tvenkinys from './components/home_work_react_list/Tvenkinys';
+import Vandenynas from './components/home_work_react_list/Vandenynas';
+
+
+ export const seaPlaners = [
+    {id: 1, type: 'man', name: 'Lina', color: 'blue'},
+    {id: 2, type: 'car', name: 'Opel', color: 'red'},
+    {id: 3, type: 'animal', name: 'Vilkas', color: 'green'},
+    {id: 4, type: 'fish', name: 'Ungurys', color: 'yellow'},
+    {id: 5, type: 'man', name: 'Tomas', color: 'green'},
+    {id: 6, type: 'animal', name: 'Bebras', color: 'red'},
+    {id: 7, type: 'animal', name: 'Barsukas', color: 'green'},
+    {id: 8, type: 'car', name: 'MB', color: 'blue'},
+    {id: 9, type: 'car', name: 'ZIL', color: 'red'},
+    {id: 10, type: 'man', name: 'Teta Toma', color: 'yellow'},
+    ];
+
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
-        <Zuikis></Zuikis>
-        <Sho tekstas="Darbo rinka"></Sho>
-        <Bebras skaicius={1}></Bebras>
-        <Pora pirmas="Bet koks tekstas" antras="Dar koks kitoks tekstas"></Pora>
-        <Trys vardas="Paulius" pavarde="Rasamavicius" spalva="skyblue"></Trys>
+    <h1>Testas</h1>
+    <Bala />
+    <Tvenkinys/>
+    <h1>Trecias uzdavinys</h1>
+    <Jura/>
+    <Vandenynas/>
+    <h1>Penktas uzdavinys</h1>
+    <Pasaulis/>
       </header>
+      
     </div>
   );
 }
