@@ -1,6 +1,6 @@
 import { seaPlaners } from "../../../App";
 
-function Garazas(lyginis) {
+function Garazas({lyginis}) {
     if (lyginis) {
         
     

@@ -11,6 +11,7 @@ function Pasaulis() {
         <Akvariumas lyginis={true}/>
         <Garazas lyginis={true}/>
         <Narvas lyginis={true}/>
+        
         <h2>nePorine dalis</h2>
         <Namas lyginis={false}/>
         <Akvariumas lyginis={false}/>
