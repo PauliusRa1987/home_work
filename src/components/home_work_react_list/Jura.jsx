@@ -17,7 +17,7 @@ function Jura() {
         <div key={value.id} >
         {value.id}, {value.type},  <span style={{color: value.color}}>{value.name}</span>
         </div>
-            ) : <></>)
+            ) : null)
         
         }</>
     )

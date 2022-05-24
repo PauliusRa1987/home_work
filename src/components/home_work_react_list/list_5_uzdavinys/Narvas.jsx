@@ -6,7 +6,7 @@ function Narvas({lyginis}) {
         <div key={value.id} >
         {value.id}, {value.type},  <span style={{color: value.color}}>{value.name}</span>
         </div>
-            ) : <></>);
+            ) : null);
     }else 
     {
         return seaPlaners.map((value) => value.type === 'animal' && value.id % 2 !== 0 && (

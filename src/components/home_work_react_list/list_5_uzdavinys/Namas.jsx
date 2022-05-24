@@ -6,14 +6,14 @@ function Namas({lyginis}) {
         <div key={i} >
         {value.id}, {value.type},  <span style={{color: value.color}}>{value.name}</span>
         </div>
-            ) : <></>);
-    }else{
+            ) : null);
+    }
         return seaPlaners.map((value, i) => value.type === 'man' && value.id % 2 !== 0 ? (
             <div key={i} >
             {value.id}, {value.type},  <span style={{color: value.color}}>{value.name}</span>
             </div>
-                ) : <></>);
-    }
+                ) : null);
+    
     
 }
 

@@ -4,6 +4,6 @@ function Laivas() {
         <div key={i} >
         {value.id}, {value.type},  <span  style={{color: value.color}}>{value.name}</span>
         </div>
-            ) : <></>);
+            ) : null);
 }
 export default Laivas;
