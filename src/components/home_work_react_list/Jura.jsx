@@ -1,7 +1,7 @@
 import Laivas from "./Laivas";
 import Sala from "./Sala";
 import Valtis from "./Valtis";
-import{ seaPlaners }from '../../App';
+import{ seaPlaners }from '../../Nd_04_lists';
 function Jura() {
     return (
         <>

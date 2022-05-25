@@ -1,4 +1,4 @@
-import { seaPlaners } from "../../App";
+import { seaPlaners } from "../../Nd_04_lists";
 function Spalva() {
     return (
         seaPlaners.sort((a, b) => a.color.localeCompare(b.color)).map((value, i) =>(

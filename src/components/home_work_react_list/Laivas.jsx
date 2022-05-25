@@ -1,4 +1,4 @@
-import{ seaPlaners }from '../../App';
+import{ seaPlaners }from '../../Nd_04_lists';
 function Laivas() {
     return seaPlaners.map((value, i) => value.type === 'car' ? (
         <div key={i} >

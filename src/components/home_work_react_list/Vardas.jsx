@@ -1,4 +1,4 @@
-import { seaPlaners } from "../../App";
+import { seaPlaners } from "../../Nd_04_lists";
 function Vardas() {
     return (
         seaPlaners.sort((a, b) => a.name.localeCompare(b.name)).map((value, i) =>(
